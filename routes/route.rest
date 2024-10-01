@@ -1,0 +1,19 @@
+GET http://localhost:3000/subscribers
+
+###
+
+Send Request
+
+GET http://localhost:3000/subscribers/12
+
+###
+
+POST http://localhost:3000/subscribers
+
+{
+  "name": "Amazing Person",
+  "subscribedToChannel": "DCJay"
+}
+
+DELETE http://localhost:3000/subscribers/12
+
